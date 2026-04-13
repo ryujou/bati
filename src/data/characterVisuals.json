@@ -1,0 +1,66 @@
+{
+  "hina": {
+    "image": "/images/characters/hina.jpg",
+    "accent": "#6f5bc6"
+  },
+  "iroha": {
+    "image": "/images/characters/iroha.jpg",
+    "accent": "#88985f"
+  },
+  "ako": {
+    "image": "/images/characters/ako.jpg",
+    "accent": "#7c72d8"
+  },
+  "aru": {
+    "image": "/images/characters/aru.jpg",
+    "accent": "#d95454"
+  },
+  "kayoko": {
+    "image": "/images/characters/kayoko.jpg",
+    "accent": "#4b517a"
+  },
+  "alice": {
+    "image": "/images/characters/alice.jpg",
+    "accent": "#61b7ff"
+  },
+  "mika": {
+    "image": "/images/characters/mika.jpg",
+    "accent": "#f3abc6"
+  },
+  "mutsuki": {
+    "image": "/images/characters/mutsuki.jpg",
+    "accent": "#c85ab6"
+  },
+  "yuuka": {
+    "image": "/images/characters/yuuka.jpg",
+    "accent": "#4e8fd6"
+  },
+  "hifumi": {
+    "image": "/images/characters/hifumi.jpg",
+    "accent": "#d4b45a"
+  },
+  "iori": {
+    "image": "/images/characters/iori.jpg",
+    "accent": "#525c77"
+  },
+  "koharu": {
+    "image": "/images/characters/koharu.jpg",
+    "accent": "#ef9ec5"
+  },
+  "shiroko": {
+    "image": "/images/characters/shiroko.jpg",
+    "accent": "#6b7f99"
+  },
+  "hoshino": {
+    "image": "/images/characters/hoshino.jpg",
+    "accent": "#ff9f7a"
+  },
+  "neru": {
+    "image": "/images/characters/neru.jpg",
+    "accent": "#ff8844"
+  },
+  "nonomi": {
+    "image": "/images/characters/nonomi.jpg",
+    "accent": "#f2c14b"
+  }
+}

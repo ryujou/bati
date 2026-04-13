@@ -1,0 +1,665 @@
+[
+  {
+    "id": "q1",
+    "text": "看到有人把基沃托斯主线理解错还踩我推的学生时，我会立刻想回帖纠正。",
+    "scene": "社区冲突",
+    "dimension": "T_F",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q2",
+    "text": "如果我是夏莱老师，我多半会把行政报表拖到截止前最后一天。",
+    "scene": "日常管理",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q3",
+    "text": "主线里出现“联邦学生会失联级”的危机气氛时，我会更兴奋。",
+    "scene": "剧情体验",
+    "dimension": "S_N",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q4",
+    "text": "打总力战时，只要能拿到目标档位奖励，我不执着抄满分轴。",
+    "scene": "玩法态度",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q5",
+    "text": "每日和周常快刷新时，我常说“等会儿领体力”，然后忘记。",
+    "scene": "数字习惯",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q6",
+    "text": "真到基沃托斯落地那一刻，我会先确认避难点和补给线，不会先逞英雄。",
+    "scene": "世界代入",
+    "dimension": "S_N",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q7",
+    "text": "看群里为“哪所学院最能打”吵起来，我会把它当综艺看。",
+    "scene": "论战文化",
+    "dimension": "T_F",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q8",
+    "text": "我的编队截图、轴表和作业链接经常堆成一团，但我懒得整理。",
+    "scene": "整理习惯",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q9",
+    "text": "半夜看完刀子剧情，我很容易立刻去发长文或表情包宣泄。",
+    "scene": "情绪表达",
+    "dimension": "T_F",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q10",
+    "text": "我觉得那些面瘫系学生不是真的冷，只是把话都省掉了。",
+    "scene": "角色审美",
+    "dimension": "S_N",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q11",
+    "text": "现实里被叫“老师”或“sensei”时，我会有点社死。",
+    "scene": "身份认同",
+    "dimension": "E_I",
+    "sign": -1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q12",
+    "text": "去蓝档线下或同好群，我通常能很快接上梗并聊起来。",
+    "scene": "社交场合",
+    "dimension": "E_I",
+    "sign": 1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q13",
+    "text": "学院立场和角色厨互相辩论，在我看来本来就是圈内乐趣之一。",
+    "scene": "圈内观感",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q14",
+    "text": "总力战卡轴或推图卡关时，我会直接查作业快速过关。",
+    "scene": "攻略依赖",
+    "dimension": "S_N",
+    "sign": 1,
+    "weights": {
+      "strategist": 1,
+      "trickster": 1,
+      "healer": 0,
+      "ruler": -2,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 1,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q15",
+    "text": "我很反感“只有我懂基沃托斯设定”的精英式优越感。",
+    "scene": "圈层批判",
+    "dimension": "S_N",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q16",
+    "text": "哪怕活动剧情一般，只要学生互动够日常够可爱我就买账。",
+    "scene": "内容偏好",
+    "dimension": "S_N",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q17",
+    "text": "看完重剧情章节后，我需要靠搞笑日常和二创回血。",
+    "scene": "情绪调节",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q18",
+    "text": "抽卡歪掉后吐槽运营，在我这里是固定流程。",
+    "scene": "抽卡行为",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q19",
+    "text": "大型活动或主线章完结后，我会有明显的“空窗期”失落。",
+    "scene": "剧情情感",
+    "dimension": "T_F",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q20",
+    "text": "我不喜欢把蓝档社区搞成控评互踩的饭圈模式。",
+    "scene": "社区边界",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q21",
+    "text": "我会囤体力药、抽卡石和礼包，即使短期用不到也先存着。",
+    "scene": "消费习惯",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q22",
+    "text": "我对本命学生投入很深，看到她受苦会影响我一整天。",
+    "scene": "角色投入",
+    "dimension": "T_F",
+    "sign": 1,
+    "weights": {
+      "strategist": 0,
+      "ruler": 0,
+      "healer": 2,
+      "guardian": -1,
+      "berserker": 0,
+      "hero": 2,
+      "lonewolf": 0,
+      "trickster": 1
+    }
+  },
+  {
+    "id": "q23",
+    "text": "我会脑补自己在关键战役里当夏莱老师逆转局势。",
+    "scene": "自我投射",
+    "dimension": "E_I",
+    "sign": -1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q24",
+    "text": "明知活动在卖萌，我还是会被学生的小互动精准拿下。",
+    "scene": "自我吐槽",
+    "dimension": "S_N",
+    "sign": 1,
+    "weights": {
+      "strategist": 2,
+      "trickster": 2,
+      "healer": 1,
+      "ruler": -1,
+      "guardian": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q25",
+    "text": "在基沃托斯队伍里，我更想当被大佬带飞的气氛组。",
+    "scene": "生存策略",
+    "dimension": "E_I",
+    "sign": 1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q26",
+    "text": "我能在一堆蓝档梗图里秒选出最适合当前气氛的那张。",
+    "scene": "社交技能",
+    "dimension": "E_I",
+    "sign": 1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q27",
+    "text": "如果我很爱的剧情被硬转刀，我会真心想和编剧对线。",
+    "scene": "观众立场",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q28",
+    "text": "理想休息日是宅家刷羁绊、清体力、补活动剧情，尽量不出门。",
+    "scene": "生活偏好",
+    "dimension": "E_I",
+    "sign": -1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q29",
+    "text": "我对“缺德但好笑”的蓝档烂梗容忍度其实很高。",
+    "scene": "幽默阈值",
+    "dimension": "T_F",
+    "sign": -1,
+    "weights": {
+      "strategist": 2,
+      "ruler": 1,
+      "healer": -2,
+      "guardian": -1,
+      "berserker": 1,
+      "hero": 0,
+      "lonewolf": 0,
+      "trickster": -1
+    }
+  },
+  {
+    "id": "q30",
+    "text": "我会主动去看那些关系复杂、心理拉扯强的角色分析。",
+    "scene": "口味偏好",
+    "dimension": "S_N",
+    "sign": -1,
+    "weights": {
+      "strategist": 1,
+      "trickster": 0,
+      "healer": 2,
+      "ruler": -1,
+      "guardian": 0,
+      "hero": 0,
+      "lonewolf": 1,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q31",
+    "text": "为了本命学生，我愿意练一套原本不感兴趣的配队。",
+    "scene": "养成动机",
+    "dimension": "J_P",
+    "sign": -1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q32",
+    "text": "我觉得慢热寡言型学生不是短板，反而很有记忆点。",
+    "scene": "角色认知",
+    "dimension": "E_I",
+    "sign": -1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q33",
+    "text": "为了效率，我会跳过重复演出，把周回流程压到最短。",
+    "scene": "效率习惯",
+    "dimension": "J_P",
+    "sign": 1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q34",
+    "text": "有人持续在评论区刷低质挑衅梗时，我会直接清理屏蔽。",
+    "scene": "边界维护",
+    "dimension": "J_P",
+    "sign": 1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q35",
+    "text": "比起标准王道元气型，我更容易被有缺口感的学生吸引。",
+    "scene": "角色偏好",
+    "dimension": "S_N",
+    "sign": 1,
+    "weights": {
+      "strategist": 1,
+      "trickster": 0,
+      "healer": 2,
+      "ruler": 0,
+      "guardian": 1,
+      "hero": 0,
+      "lonewolf": 1,
+      "berserker": 0
+    }
+  },
+  {
+    "id": "q36",
+    "text": "对我来说，蓝档社区像一个能安全发厨和共鸣剧情的据点。",
+    "scene": "社区归属",
+    "dimension": "E_I",
+    "sign": 1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  },
+  {
+    "id": "q37",
+    "text": "我会反复翻主线文本和活动细节，专门找伏笔互证。",
+    "scene": "考据行为",
+    "dimension": "J_P",
+    "sign": 1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q38",
+    "text": "玩游戏时我会想把任务、图鉴、收集项尽量清到接近全满。",
+    "scene": "完成度",
+    "dimension": "J_P",
+    "sign": 1,
+    "weights": {
+      "ruler": 2,
+      "guardian": 1,
+      "strategist": 1,
+      "trickster": -2,
+      "berserker": -1,
+      "hero": 0,
+      "lonewolf": 0,
+      "healer": 0
+    }
+  },
+  {
+    "id": "q39",
+    "text": "发现某个学生特别适合朋友时，我会马上去安利并附理由。",
+    "scene": "分享冲动",
+    "dimension": "E_I",
+    "sign": 1,
+    "weights": {
+      "hero": 2,
+      "trickster": 2,
+      "healer": 1,
+      "lonewolf": -2,
+      "strategist": -1,
+      "guardian": 0,
+      "berserker": 0,
+      "ruler": 0
+    }
+  }
+]

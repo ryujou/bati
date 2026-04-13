@@ -1,0 +1,370 @@
+[
+  {
+    "id": "hina",
+    "name": "空崎日奈",
+    "series": "蔚蓝档案",
+    "matchCode": "INTJ",
+    "code": "HINA",
+    "title": "风纪委员长级压场感",
+    "archetypeId": "shadow-strategist",
+    "tags": [
+      "高压统率",
+      "结果导向",
+      "冷面可靠"
+    ],
+    "note": "你给人的第一感觉不是热闹，而是稳得可怕。你会先判断局势，再决定是否亲自出手，一旦出手通常就是为了把事情直接压到可控范围内。",
+    "vector": {
+      "expression": -2,
+      "temperature": -2,
+      "judgement": 3,
+      "order": 1,
+      "agency": 3,
+      "aura": 3
+    }
+  },
+  {
+    "id": "iroha",
+    "name": "枣伊吕波",
+    "series": "蔚蓝档案",
+    "matchCode": "INTP",
+    "code": "IROH",
+    "title": "懒散外壳下的天才参谋",
+    "archetypeId": "icebound-observer",
+    "tags": [
+      "脑内兵棋",
+      "低耗社交",
+      "关键时刻靠谱"
+    ],
+    "note": "平时看起来像在摸鱼，真到需要拆解局势的时候却异常清醒。你擅长把复杂问题拆成能处理的模块，再用最省力的方式解决。",
+    "vector": {
+      "expression": -1,
+      "temperature": -2,
+      "judgement": 3,
+      "order": 2,
+      "agency": 2,
+      "aura": 2
+    }
+  },
+  {
+    "id": "ako",
+    "name": "天雨亚子",
+    "series": "蔚蓝档案",
+    "matchCode": "ENTJ",
+    "code": "AKO",
+    "title": "执行力拉满的参谋长",
+    "archetypeId": "oathbound-captain",
+    "tags": [
+      "高标准",
+      "控制盘面",
+      "压缩失误"
+    ],
+    "note": "你对结果、流程和执行质量都有很高要求。别人眼里你可能有点压迫，但真到关键时刻，大家也最放心把事情交给你。",
+    "vector": {
+      "expression": -1,
+      "temperature": -1,
+      "judgement": 3,
+      "order": 3,
+      "agency": 3,
+      "aura": 3
+    }
+  },
+  {
+    "id": "aru",
+    "name": "陆八魔阿露",
+    "series": "蔚蓝档案",
+    "matchCode": "ENTP",
+    "code": "ARU",
+    "title": "把翻车演成名场面的便利屋社长",
+    "archetypeId": "trickster-orbit",
+    "tags": [
+      "即兴应变",
+      "面子工程",
+      "乐子驱动"
+    ],
+    "note": "你很擅长在临场混乱里找到新的玩法。就算计划没有按原样成功，你也常能靠气势、嘴炮和机智，把事故改写成新的名场面。",
+    "vector": {
+      "expression": 3,
+      "temperature": 2,
+      "judgement": 0,
+      "order": -2,
+      "agency": 2,
+      "aura": 2
+    }
+  },
+  {
+    "id": "kayoko",
+    "name": "鬼方佳代子",
+    "series": "蔚蓝档案",
+    "matchCode": "INFJ",
+    "code": "KAYO",
+    "title": "安静又会接住全队情绪的人",
+    "archetypeId": "gentle-healer",
+    "tags": [
+      "安定感",
+      "共情力",
+      "成熟"
+    ],
+    "note": "你不一定会把关心挂在嘴边，但会用很稳定的方式把别人接住。你对人和关系里的细微变化很敏感，也很懂得什么时候该开口、什么时候只需要陪着。",
+    "vector": {
+      "expression": 0,
+      "temperature": 1,
+      "judgement": 1,
+      "order": 0,
+      "agency": 2,
+      "aura": 3
+    }
+  },
+  {
+    "id": "alice",
+    "name": "天童爱丽丝",
+    "series": "蔚蓝档案",
+    "matchCode": "INFP",
+    "code": "ALIS",
+    "title": "童话感和纯真一起发亮的勇者",
+    "archetypeId": "moonlit-guardian",
+    "tags": [
+      "纯粹愿望",
+      "理想主义",
+      "慢热温柔"
+    ],
+    "note": "你对自己相信的东西很认真，也愿意为了那份相信坚持到底。你看起来柔软，但真正重要的价值一旦被碰到，反而会展现出意外坚定的那一面。",
+    "vector": {
+      "expression": -1,
+      "temperature": 2,
+      "judgement": 1,
+      "order": 0,
+      "agency": 1,
+      "aura": 2
+    }
+  },
+  {
+    "id": "mika",
+    "name": "圣园未花",
+    "series": "蔚蓝档案",
+    "matchCode": "ENFJ",
+    "code": "MIKA",
+    "title": "天生站在聚光灯里的号召者",
+    "archetypeId": "luminous-lead",
+    "tags": [
+      "感染力",
+      "存在感",
+      "情绪牵引"
+    ],
+    "note": "你很容易成为人群视线的焦点，不只是因为显眼，更因为你真的会把周围人的情绪带起来。你擅长营造氛围，也很容易在关系里形成中心。",
+    "vector": {
+      "expression": 2,
+      "temperature": 3,
+      "judgement": 1,
+      "order": 1,
+      "agency": 2,
+      "aura": 2
+    }
+  },
+  {
+    "id": "mutsuki",
+    "name": "浅黄睦月",
+    "series": "蔚蓝档案",
+    "matchCode": "ENFP",
+    "code": "MTSK",
+    "title": "恶作剧和高机动并存的问题儿童",
+    "archetypeId": "trickster-orbit",
+    "tags": [
+      "整活专家",
+      "高反应",
+      "喜欢看反应"
+    ],
+    "note": "你会天然追着变化和有趣的反馈跑。你不太愿意被规矩锁死，更擅长一边闹腾一边把节奏往你想要的方向带过去。",
+    "vector": {
+      "expression": 3,
+      "temperature": 2,
+      "judgement": 0,
+      "order": -1,
+      "agency": 3,
+      "aura": 1
+    }
+  },
+  {
+    "id": "yuuka",
+    "name": "早濑优香",
+    "series": "蔚蓝档案",
+    "matchCode": "ISTJ",
+    "code": "YUUK",
+    "title": "把预算、日程和底线一起守住的人",
+    "archetypeId": "moonlit-guardian",
+    "tags": [
+      "秩序感",
+      "执行稳定",
+      "现实主义"
+    ],
+    "note": "你对混乱和失控的容忍度不高，但这正是你可靠的原因。你擅长把资源、时间和规则都放回正确的位置，让大家能安心继续往前走。",
+    "vector": {
+      "expression": -2,
+      "temperature": -1,
+      "judgement": 3,
+      "order": 3,
+      "agency": 2,
+      "aura": 2
+    }
+  },
+  {
+    "id": "hifumi",
+    "name": "阿慈谷日富美",
+    "series": "蔚蓝档案",
+    "matchCode": "ISFJ",
+    "code": "HIFM",
+    "title": "看起来软，却能稳稳陪完全程",
+    "archetypeId": "gentle-healer",
+    "tags": [
+      "耐心高",
+      "真诚",
+      "照顾欲"
+    ],
+    "note": "你会自然地关注别人有没有被落下，也很愿意为了维持关系多走一步。你不是那种高调的支援型，但你的善意经常最能熬到最后。",
+    "vector": {
+      "expression": 0,
+      "temperature": 2,
+      "judgement": 2,
+      "order": 2,
+      "agency": 1,
+      "aura": 1
+    }
+  },
+  {
+    "id": "iori",
+    "name": "银镜伊织",
+    "series": "蔚蓝档案",
+    "matchCode": "ESTJ",
+    "code": "IORI",
+    "title": "嘴硬火爆的纪律派尖兵",
+    "archetypeId": "oathbound-captain",
+    "tags": [
+      "强执行",
+      "刀子嘴",
+      "扛事"
+    ],
+    "note": "你面对问题时首先想到的是解决，而不是兜圈子。哪怕表达方式有点冲，你也往往是那个真的会上前把麻烦处理掉的人。",
+    "vector": {
+      "expression": 2,
+      "temperature": 1,
+      "judgement": 2,
+      "order": 3,
+      "agency": 2,
+      "aura": 2
+    }
+  },
+  {
+    "id": "koharu",
+    "name": "下江小春",
+    "series": "蔚蓝档案",
+    "matchCode": "ESFJ",
+    "code": "KOHR",
+    "title": "嘴上嫌弃但不会真的不管",
+    "archetypeId": "luminous-lead",
+    "tags": [
+      "存在感强",
+      "热感社交",
+      "急性子"
+    ],
+    "note": "你对气氛和他人的动向非常敏感，经常会一边吐槽一边把事情接过去。你不太擅长假装冷淡，关心和反应几乎都会直接写在脸上。",
+    "vector": {
+      "expression": 3,
+      "temperature": 2,
+      "judgement": 1,
+      "order": 1,
+      "agency": 2,
+      "aura": 1
+    }
+  },
+  {
+    "id": "shiroko",
+    "name": "砂狼白子",
+    "series": "蔚蓝档案",
+    "matchCode": "ISTP",
+    "code": "SRKO",
+    "title": "低配音量高行动力的直线型选手",
+    "archetypeId": "icebound-observer",
+    "tags": [
+      "寡言高效",
+      "自我节奏",
+      "行动派"
+    ],
+    "note": "你不爱解释太多，但会用行动交代答案。比起长篇沟通，你更相信自己亲自去试、去跑、去把事情做出来。",
+    "vector": {
+      "expression": -1,
+      "temperature": -1,
+      "judgement": 2,
+      "order": 0,
+      "agency": 3,
+      "aura": 2
+    }
+  },
+  {
+    "id": "hoshino",
+    "name": "小鸟游星野",
+    "series": "蔚蓝档案",
+    "matchCode": "ISFP",
+    "code": "HOSH",
+    "title": "看似散漫，实际一直盯着全场",
+    "archetypeId": "moonlit-guardian",
+    "tags": [
+      "松弛外表",
+      "守护本能",
+      "疲惫感"
+    ],
+    "note": "你表面上可能显得很松，很懒，甚至有点爱躲事，但真正该站出来的时候又总会在场。你不争抢主导权，却很难真的对重要的人袖手旁观。",
+    "vector": {
+      "expression": -2,
+      "temperature": 1,
+      "judgement": 0,
+      "order": 0,
+      "agency": 1,
+      "aura": 1
+    }
+  },
+  {
+    "id": "neru",
+    "name": "美甘宁瑠",
+    "series": "蔚蓝档案",
+    "matchCode": "ESTP",
+    "code": "NERU",
+    "title": "先冲上去再说的前线破墙机",
+    "archetypeId": "chaos-spark",
+    "tags": [
+      "爆发力",
+      "硬碰硬",
+      "直给"
+    ],
+    "note": "你不太会被犹豫困住，很多时候想到就上。你的魅力来自于那种说打就打、说做就做的前线感，也来自于你总能把静止局面狠狠干碎。",
+    "vector": {
+      "expression": 3,
+      "temperature": 1,
+      "judgement": -1,
+      "order": -1,
+      "agency": 3,
+      "aura": 3
+    }
+  },
+  {
+    "id": "nonomi",
+    "name": "十六夜野乃美",
+    "series": "蔚蓝档案",
+    "matchCode": "ESFP",
+    "code": "NONM",
+    "title": "温柔气场里包着超规格火力",
+    "archetypeId": "chaos-spark",
+    "tags": [
+      "亲和力",
+      "气氛制造",
+      "分享欲"
+    ],
+    "note": "你能自然把轻松和热闹带进团队里，也愿意把喜欢的东西大方分享出去。你看着柔和，但在推进和表达这件事上从来不算保守。",
+    "vector": {
+      "expression": 3,
+      "temperature": 2,
+      "judgement": 1,
+      "order": 0,
+      "agency": 2,
+      "aura": 3
+    }
+  }
+]

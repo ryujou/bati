@@ -1,0 +1,242 @@
+[
+  {
+    "id": "luminous-lead",
+    "name": "前线领航者",
+    "subtitle": "把全队情绪和节奏一起拉起来的人",
+    "oneLiner": "你像总会先一步喊出“老师，跟上”的那个人。",
+    "description": "这是典型的高表达、高推进原型。你在团队里往往承担开场、提气和重新聚焦的职责，适合站在前排发起行动。",
+    "tags": [
+      "高表达",
+      "带队感",
+      "主角位"
+    ],
+    "narrativeRole": "行动发起者 / 团队气氛核心",
+    "spotlight": "场面僵住时，你通常就是第一个把大家重新拽回行动里的人。",
+    "weakness": "太习惯替全队点火，容易把自己的疲惫压到最后。",
+    "keywords": [
+      "推进",
+      "感染力",
+      "带头",
+      "主舞台"
+    ],
+    "accent": "#4aa3ff",
+    "vector": {
+      "expression": 3,
+      "temperature": 2,
+      "judgement": 1,
+      "order": 0,
+      "agency": 3,
+      "aura": 1
+    }
+  },
+  {
+    "id": "icebound-observer",
+    "name": "冷静狙击手",
+    "subtitle": "安静，但能迅速看穿局势的人",
+    "oneLiner": "你不急着表态，却总能在关键时刻打中真正的靶心。",
+    "description": "这是偏低表达、高判断的原型。你更习惯先观察、先定位、再决定要不要介入，擅长做冷静分析和精确执行。",
+    "tags": [
+      "观察型",
+      "判断优先",
+      "低噪音"
+    ],
+    "narrativeRole": "观察者 / 精确执行位",
+    "spotlight": "别人还在混乱里找方向时，你往往已经看清应该打哪里。",
+    "weakness": "过于克制会让别人误以为你不在乎，也可能错过更直接的连结。",
+    "keywords": [
+      "观察",
+      "精确",
+      "克制",
+      "冷静"
+    ],
+    "accent": "#5f87c9",
+    "vector": {
+      "expression": -2,
+      "temperature": -2,
+      "judgement": 3,
+      "order": 2,
+      "agency": 1,
+      "aura": 2
+    }
+  },
+  {
+    "id": "oathbound-captain",
+    "name": "值日队长",
+    "subtitle": "会把秩序、后果和责任一起扛起来的人",
+    "oneLiner": "你很难只当旁观者，因为你天然会去收拾现场。",
+    "description": "这是高秩序、高推进的支柱型原型。你在团队里像稳定框架，能顶住压力，也会在关键时刻扛下后果。",
+    "tags": [
+      "责任感",
+      "秩序型",
+      "支柱"
+    ],
+    "narrativeRole": "编队中轴 / 纪律担当",
+    "spotlight": "不一定最会说，但往往是最后那个还在把局面扛住的人。",
+    "weakness": "容易把事情都揽到自己身上，久了会把自己逼得太紧。",
+    "keywords": [
+      "责任",
+      "稳定",
+      "纪律",
+      "扛事"
+    ],
+    "accent": "#5abf9a",
+    "vector": {
+      "expression": 0,
+      "temperature": 1,
+      "judgement": 2,
+      "order": 3,
+      "agency": 2,
+      "aura": 1
+    }
+  },
+  {
+    "id": "trickster-orbit",
+    "name": "机动整活位",
+    "subtitle": "总能把战局绕出新花样的人",
+    "oneLiner": "你不喜欢被固定在一个格子里，转机通常跟着你一起出现。",
+    "description": "这是高表达、高机动的原型。你对变化很敏感，擅长用灵活、即兴甚至有点不按常理的方式解决问题。",
+    "tags": [
+      "机动",
+      "灵活",
+      "变招快"
+    ],
+    "narrativeRole": "破局位 / 副主角",
+    "spotlight": "规则开始卡人的时候，你总能找到缝隙钻出去。",
+    "weakness": "太依赖即兴发挥，容易让别人抓不住你的节奏。",
+    "keywords": [
+      "变招",
+      "灵感",
+      "游走",
+      "破局"
+    ],
+    "accent": "#ffb14a",
+    "vector": {
+      "expression": 2,
+      "temperature": 1,
+      "judgement": 1,
+      "order": -1,
+      "agency": 3,
+      "aura": 1
+    }
+  },
+  {
+    "id": "gentle-healer",
+    "name": "后勤治愈位",
+    "subtitle": "会把大家慢慢照顾回来的那种人",
+    "oneLiner": "你未必最显眼，但你总能让人感觉自己被接住了。",
+    "description": "这是高温度、高支持的原型。你对关系里的脆弱很敏感，擅长安抚、修复和维持连接。",
+    "tags": [
+      "温柔",
+      "照顾型",
+      "高共情"
+    ],
+    "narrativeRole": "情绪支援 / 复原中继",
+    "spotlight": "别人快要掉下去时，你经常能刚好伸手把人接住。",
+    "weakness": "很容易过度共情，把不属于自己的压力也一起背了。",
+    "keywords": [
+      "陪伴",
+      "修复",
+      "连接",
+      "柔软"
+    ],
+    "accent": "#ff95bf",
+    "vector": {
+      "expression": 1,
+      "temperature": 3,
+      "judgement": 1,
+      "order": 1,
+      "agency": 1,
+      "aura": 0
+    }
+  },
+  {
+    "id": "shadow-strategist",
+    "name": "幕后参谋",
+    "subtitle": "会先在脑内把战术板写满的人",
+    "oneLiner": "你习惯先想清全局，再决定自己要站在哪一步。",
+    "description": "这是高判断、高存在感原型。你擅长从复杂局面里提炼结构，不急着开口，但一旦出手通常就是为了改写局势。",
+    "tags": [
+      "参谋型",
+      "全局视角",
+      "压场"
+    ],
+    "narrativeRole": "幕后操盘 / 战术中枢",
+    "spotlight": "很多人以为事情是顺势发展，只有你知道盘面早被你算过一遍。",
+    "weakness": "太会预判也会显得难接近，甚至容易走向过度控制。",
+    "keywords": [
+      "布局",
+      "推演",
+      "全局",
+      "压场"
+    ],
+    "accent": "#7e6bff",
+    "vector": {
+      "expression": -1,
+      "temperature": -1,
+      "judgement": 3,
+      "order": 2,
+      "agency": 2,
+      "aura": 3
+    }
+  },
+  {
+    "id": "chaos-spark",
+    "name": "爆破问题儿童",
+    "subtitle": "一出场就把气氛点着的人",
+    "oneLiner": "你不负责平静地把事情做完，你负责让事情开始变得有戏。",
+    "description": "这是高推进、高波动感原型。你讨厌平铺直叙，常常会把原本稳定的局面搅出新的火花。",
+    "tags": [
+      "冲劲",
+      "戏剧性",
+      "爆点"
+    ],
+    "narrativeRole": "前线爆点 / 事件触发器",
+    "spotlight": "你最擅长的不是守成，而是把局面一脚踢进下一个阶段。",
+    "weakness": "推进力太强时，也可能把局势一起推进失控区。",
+    "keywords": [
+      "爆发",
+      "冲锋",
+      "反转",
+      "失控感"
+    ],
+    "accent": "#ff6f7d",
+    "vector": {
+      "expression": 2,
+      "temperature": 1,
+      "judgement": -1,
+      "order": -2,
+      "agency": 3,
+      "aura": 2
+    }
+  },
+  {
+    "id": "moonlit-guardian",
+    "name": "寡言守护者",
+    "subtitle": "不抢镜，但会一直守在阵线上的人",
+    "oneLiner": "你不是最亮的那盏灯，却经常是最后还没熄灭的那盏。",
+    "description": "这是低表达、高秩序、高稳定原型。你通常不抢戏，但会在需要的时候安静顶上，像背景里的持续光源。",
+    "tags": [
+      "守护",
+      "稳定",
+      "低调"
+    ],
+    "narrativeRole": "护卫位 / 边界守望者",
+    "spotlight": "别人看到的是你不声不响，真正熟的人知道你从没离开过阵线。",
+    "weakness": "太习惯沉默地承担，会让自己的需求长期被忽略。",
+    "keywords": [
+      "守护",
+      "稳定",
+      "边界",
+      "持续"
+    ],
+    "accent": "#7fa6d9",
+    "vector": {
+      "expression": -1,
+      "temperature": 1,
+      "judgement": 2,
+      "order": 3,
+      "agency": 1,
+      "aura": 2
+    }
+  }
+]
