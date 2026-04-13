@@ -10,6 +10,10 @@
 - 1 个对应叙事原型
 - 4 维 MBTI 倾向比例
 
+## 在线体验
+
+https://ryujou.github.io/bati/
+
 ## 项目特点
 
 - 39 道题
