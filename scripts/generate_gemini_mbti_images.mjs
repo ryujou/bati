@@ -12,8 +12,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..')
 const manifestPath = path.join(repoRoot, '.generated', 'references', 'manifest.json')
 const styleManifestPath = path.join(repoRoot, '.generated', 'mbti-style-refs', 'manifest.json')
-const acgtiPrimaryStylePath = path.join(repoRoot, 'public', 'images', 'characters', 'hina.jpg')
-const acgtiSecondaryStylePath = path.join(repoRoot, 'public', 'images', 'characters', 'aru.jpg')
+const stylePrimaryRefPath = path.join(repoRoot, 'public', 'images', 'characters', 'hina.jpg')
+const styleSecondaryRefPath = path.join(repoRoot, 'public', 'images', 'characters', 'aru.jpg')
 const outDir = path.join(repoRoot, 'public', 'images', 'characters')
 const visualsPath = path.join(repoRoot, 'src', 'data', 'characterVisuals.json')
 const tempDir = path.join(repoRoot, '.generated', 'gemini-requests')
@@ -62,25 +62,25 @@ function buildPrompt(character, archetype) {
   return [
     'Use case: stylized-concept',
     'Asset type: personality test result illustration',
-    `Primary request: redesign ${character.name} from Blue Archive in the mixed visual language used by the original ACGTI project, keeping more anime appeal than pure official 16Personalities art while preserving the faceted low-poly MBTI look.`,
-    `Input images: images 1-2 are original ACGTI style references and are the strongest style guide; images 3-4 are official 16Personalities references and should only guide geometric props, set dressing, and blocky composition; images 5-6 are Blue Archive identity references for ${character.name} and must dominate the character design.`,
+    `Primary request: redesign ${character.name} from Blue Archive in the mixed visual language used by this project's low-poly MBTI character style, keeping more anime appeal than pure official 16Personalities art while preserving the faceted low-poly MBTI look.`,
+    `Input images: images 1-2 are local project style references and are the strongest style guide; images 3-4 are official 16Personalities references and should only guide geometric props, set dressing, and blocky composition; images 5-6 are Blue Archive identity references for ${character.name} and must dominate the character design.`,
     `Subject: ${character.name}, one character only, recognizable as the same Blue Archive student.`,
-    'Style priority: first match the local ACGTI references for overall character appeal, proportions, face simplification, and anime influence; second match the official 16Personalities references for faceted geometry, prop design, and simple spatial staging.',
+    'Style priority: first match the local project references for overall character appeal, proportions, face simplification, and anime influence; second match the official 16Personalities references for faceted geometry, prop design, and simple spatial staging.',
     'Style/medium: anime-informed low-poly character illustration, faceted geometric construction, angular planar forms, hard-edged cel shading, clean vector-like finish, light pastel background, very little line-art, no painterly brushwork.',
-    'Character proportions: keep a youthful stylized anime proportion similar to the ACGTI references, with a slightly larger head and slimmer schoolgirl body, around 4.5 to 5.5 heads tall, not realistic adult proportions and not ultra-chibi.',
-    'Face construction: use a cute simplified anime-inspired face similar to the ACGTI references, with small black oval or bean-shaped eyes, a tiny nose, a tiny mouth, soft feminine facial balance, and faceted cheeks. Keep the face youthful and girlish, not square-jawed, not adult-masculine, and not pure official 16Personalities adult-face geometry.',
+    'Character proportions: keep a youthful stylized anime proportion similar to the local project references, with a slightly larger head and slimmer schoolgirl body, around 4.5 to 5.5 heads tall, not realistic adult proportions and not ultra-chibi.',
+    'Face construction: use a cute simplified anime-inspired face similar to the local project references, with small black oval or bean-shaped eyes, a tiny nose, a tiny mouth, soft feminine facial balance, and faceted cheeks. Keep the face youthful and girlish, not square-jawed, not adult-masculine, and not pure official 16Personalities adult-face geometry.',
     'Blue Archive identity lock: preserve the original character much more faithfully than before. Keep the same silhouette, same hairstyle, same bang structure, same hair length, same hair color, same eye color, same facial mood, same halo shape, same horn or ear shape, same coat and uniform structure, same signature weapon type, and the same key accessories from the Blue Archive references.',
     'Reference obedience rule: only include anatomy, appendages, accessories, and costume parts that are clearly present in the Blue Archive reference images. If a tail, animal ears, extra horns, wings, floating ornaments, ribbons, bags, mechanical parts, or other feature is not visible in the references, do not invent it.',
     'No invention rule: do not add any new traits to make the design feel richer. Accuracy is more important than variety. It is better to simplify a real feature than to hallucinate a new one.',
     'Hair and clothing treatment: rebuild the bangs, hair masses, coat edges, skirt folds, sleeves, weapon, and any reference-confirmed wings or cape shapes with low-poly anime planes and visible angular corners, but do not redesign or replace the original Blue Archive costume language.',
     'Composition/framing: portrait 3:4, full body visible including feet, one prominent character occupying most of the frame, standing or slightly dynamic pose, a few symbolic geometric props, clean light background.',
-    'Environment language: borrow geometric panels, pedestals, wedges, and simplified hard-surface objects from the official 16Personalities references, but keep the character presentation closer to the ACGTI original illustrations.',
-    'Character fidelity requirements: if a viewer who knows Blue Archive sees the final image, they should instantly identify the exact student without reading any label. Preserve the Blue Archive design first, then translate it into the ACGTI low-poly style.',
+    'Environment language: borrow geometric panels, pedestals, wedges, and simplified hard-surface objects from the official 16Personalities references, but keep the character presentation closer to the local project illustrations.',
+    'Character fidelity requirements: if a viewer who knows Blue Archive sees the final image, they should instantly identify the exact student without reading any label. Preserve the Blue Archive design first, then translate it into the project low-poly style.',
     `Narrative mood: ${archetype.name} / ${archetype.subtitle}.`,
     `Personality cues: ${character.tags.join('、')}.`,
     `Short role cue: ${character.title}.`,
     ...(overrides?.extraInstructions ?? []),
-    'Important priority: the final image must feel clearly closer to the original ACGTI reference art than to pure official 16Personalities art, while still keeping the faceted MBTI geometry.',
+    'Important priority: the final image must feel clearly closer to the local project reference art than to pure official 16Personalities art, while still keeping the faceted MBTI geometry.',
     'Avoid: altering the character into a different person, changing the hairstyle dramatically, changing the halo design, swapping outfit parts, inventing new accessories, inventing new anatomy, adding a tail that does not exist in the references, adding animal ears that do not exist in the references, adding extra horns, adding wings that do not exist in the references, realistic adult face proportions, pure official 16Personalities square adult faces, pure chibi mascot proportions, soft anime poster shading, glossy eyes, long eyelashes, fluffy textures, airbrushed gradients, photorealism, extra characters, text, logo, watermark.',
     'If the character reference includes large weapons, simplify them into one iconic angular prop unless keeping more detail is necessary for recognizability.',
   ].join('\n')
@@ -108,8 +108,8 @@ async function generateImageForCharacter(characterId, manifest, styleManifest) {
   }
 
   const parts = [{ text: buildPrompt(character, archetype) }]
-  parts.push(await fileToInlineData(acgtiPrimaryStylePath))
-  parts.push(await fileToInlineData(acgtiSecondaryStylePath))
+  parts.push(await fileToInlineData(stylePrimaryRefPath))
+  parts.push(await fileToInlineData(styleSecondaryRefPath))
   if (styleReferences.files.socialFocus) {
     parts.push(await fileToInlineData(styleReferences.files.socialFocus))
   }

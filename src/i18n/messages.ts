@@ -7,8 +7,8 @@ export const localeLabels: Record<AppLocale, string> = {
 const zhCN = {
   app: {
     nav: {
-      githubTitle: '查看参考源码仓库',
-      star: '参考源码',
+      githubTitle: '查看 BATI 项目仓库',
+      star: '项目仓库',
       quiz: '开始测试',
       intro: '测试说明',
       characters: '角色图鉴',
@@ -22,7 +22,7 @@ const zhCN = {
         project: '页面内容',
         reminders: '使用提醒',
         status: '当前状态',
-        openSource: '参考项目',
+        openSource: '项目仓库',
       },
       links: {
         startQuiz: '开始 BATI 测试',
@@ -40,8 +40,8 @@ const zhCN = {
         frontend: '纯前端静态页面',
         stats: '39 道题 / 4 维 MBTI',
         library: '8 个原型 / 16 位学生',
-        likeIt: '想继续扩充这类测试？',
-        star: '查看参考仓库',
+        likeIt: '想继续看看这个项目的源码？',
+        star: '查看 BATI 仓库',
       },
       social: {
         home: '首页',
@@ -75,7 +75,7 @@ const zhCN = {
     heroTitle: '来看看你在基沃托斯更像哪位学生。',
     heroSubtitle: '保留 MBTI 四维计算逻辑，把结果翻译成蔚蓝档案角色、原型气质和更容易读懂的说明。',
     start: '开始测试 →',
-    starProject: '参考源码',
+    starProject: '项目仓库',
     relayTitle: '如果你觉得这个方向挺有意思',
     relayCopy: '可以把测试链接顺手发给同样玩蔚蓝档案的朋友，一起看看大家分别更像谁。',
     relayButton: '复制测试链接',
@@ -104,9 +104,9 @@ const zhCN = {
       '结果很适合同好之间互相安利和对照，聊起来比普通 MBTI 更有画面。',
       '不认识所有角色也能看懂，因为原型和维度解释都写得很直接。',
     ],
-    ossTitle: '这页是基于开源项目改出来的',
-    ossCopy: '页面结构参考了 ACGTI 开源仓库，但题库、角色库和展示内容已经改成蔚蓝档案方向。如果你想继续扩充，也可以从这个结构往下做。',
-    ossButton: '查看参考仓库',
+    ossTitle: '这个项目已经独立维护',
+    ossCopy: 'BATI 是独立维护的蔚蓝档案同人测试站。README 里保留了来源说明，如果你想继续扩充，也可以直接从当前仓库往下做。',
+    ossButton: '查看 BATI 仓库',
     ctaTitle: '想知道你会命中哪位学生？',
     ctaButton: '立即开始测试 →',
   },
@@ -168,9 +168,9 @@ const zhCN = {
     toc: '本页内容',
     tocItems: ['1. 人格倾向', '2. 亮点与短板', '3. 角色标签'],
     share: '分享结果',
-    ossTitle: '参考来源',
-    ossCopy: '这个页面结构参考了 ACGTI 的开源实现。如果你想继续加角色、加题目或者做成完整同人站，可以直接在这个基础上继续扩。 ',
-    ossButton: '查看参考仓库',
+    ossTitle: '项目仓库',
+    ossCopy: 'BATI 现在是独立维护的仓库。如果你想继续加角色、加题目或者做成完整同人站，可以直接在当前仓库基础上继续扩。',
+    ossButton: '查看 BATI 仓库',
     dimensions: {
       E_I: ['外向', '内向'],
       S_N: ['实感', '直觉'],
@@ -186,9 +186,9 @@ const zhCN = {
   about: {
     eyebrow: '关于 BATI',
     title: '把 MBTI 结果翻译成蔚蓝档案角色的一页同人测试。',
-    leadA: 'BATI 可以理解成 Blue Archive Type Indicator。它沿用了 ACGTI 这类角色测试的结构，但把题目语境、角色库和展示结果都改成了蔚蓝档案方向。',
+    leadA: 'BATI 可以理解成 Blue Archive Type Indicator。它沿用了角色测试页的结构思路，但把题目语境、角色库和展示结果都改成了蔚蓝档案方向。',
     leadB: '当前版本是纯前端页面，结果只存在本地浏览器里。你可以继续往这个方向扩题库、补学生、替换美术，或者接成完整站点。',
-    star: '查看参考仓库',
+    star: '查看 BATI 仓库',
     boundaryTitle: '当前边界',
     boundaryItems: [
       ['娱乐定位', '这是角色向同人测试，不是心理诊断，也不试图定义真实人格。'],
